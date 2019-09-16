@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import SwiftyJSON
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -20,7 +21,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        
+        var contentView = ContentView(sections: [])
+        if let json = try? JSON(data: Data(contentsOf: Bundle.main.url(forResource: "data", withExtension: "json")!)) {
+            var sections = [Section]()
+            for (_, section):(String, JSON) in json {
+                sections.append(Section(id: section["id"].intValue, title: section["title"].stringValue, description: section["description"].stringValue, content: section["content"].stringValue, imageURL: section["imageURL"].stringValue, imageBackground: section["imageBackground"].boolValue))
+            }
+            contentView = ContentView(sections: sections)
+        }
+        
+//        let contentView = SectionDetail()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

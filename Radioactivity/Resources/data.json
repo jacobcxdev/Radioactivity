@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "title": "Discovery of Radioactivity",
+        "description": "A killer discovery... 💀",
+        "content": "In 1896, Henri Becquerel was investigating materials that glow when placed in an X-ray beam. He aimed to find whether strong sunlight could make uranium salts glow, and so carried out an experiment in which he placed a sample of uranium salts in a drawer on a photographic plate. The next day, he developed the film and was amazed to see the image of a key. He had discovered that uranium salts emit radiation.\n\nBecquerel challenged his student, Marie Curie, to investigate the radioactivity of other elements. One of these elements, radium, was discovered to be a million time more radioactive than uranium.\n\nIn 1903, Marie Curie, Pierre Curie and Henri Becquerel won the Nobel prize for physics due to these discoveries.",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Marie_Curie_c1920.jpg",
+        "imageBackground": false
+    },
+    {
+        "id": 1,
+        "title": "Rutherford",
+        "description": "CHARGE! ⚡️",
+        "content": "A scientist named Ernest Rutherford wanted to find out what radiation emitted by various radioactive substances was and what caused it.\n\nHe found that the radiation:\n• ionised air, giving it the ability to conduct electricity.\n• was of two types. One he named alpha (α), and the other he named beta (β). A year later he discovered the third type of radiation — gamma (γ).\n\nHe later found that a magnetic field would deflect α and β radiation in opposite directions, though it had no affect on γ radiation. From these differing directions he deduced that α radiation was positively charged, and β radiation was negatively charged. He later discovered that γ consisted of high-energy photons (γ).",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Ernest_Rutherford_LOC.jpg",
+        "imageBackground": false
+    },
+    {
+        "id": 2,
+        "title": "Experiments",
+        "description": "BANG! 💥",
+        "content": "The ionising effect of each type of radiation can be investigated using an ionisation chamber and a pico ammeter. The chamber contains air at 1 atm, Ions created in the chamber are attracted to the oppositely charged electrode, where they are discharged. Electrons pass through the pico ammeter as a result of ionisation in the chamber, producing a current proportional to the number of ions created per second in the chamber.\n\nA cloud chamber contains air saturated with a vapour at a very low temperature. Due to the ionisation of the air, a charged particle passing through the cloud chamber leaves a visible track of condensed vapour droplets, as the air space is supersaturated. When an ionising particle passes through the supersaturated vapour, the ions produced trigger the formation of droplets.\n\n• α particles produce straight tracks which radiate from the source and are easily visible. The tracks from a given isotope are all of the same length, indicating that α particles have the same range.\n• β particles produce wispy tracks that are easily deflected as a result of collisions with air molecules. The tracks are not as easy to see, as β particles are less ionising than α particles.",
+        "imageURL": "https://i.pinimg.com/originals/5f/77/2a/5f772ae9def14bb981669dedcfca10f5.jpg",
+        "imageBackground": false
+    },
+    {
+        "id": 3,
+        "title": "Geiger-Muller Tube",
+        "description": "TICK TICK YOU'RE GOING TO DIE! 🧪",
+        "content": "The Geiger-Muller tube is a sealed metal tube that contains argon gas at a low pressure. The thin mica window at the end of the tube allows α and β particles to enter the tube. γ photons can also enter through the tube wall. A metal rod in the centre of the tube is at a positive potential, and the tube wall is connected to the negative terminal of the power supply and is earthed.\n\nWhen a particle of ionising radiation enters the tube, the particle ionises the gas atoms along its track. The negative ions are attracted to the rod and the positive ions are attracted to the wall. The ions accelerate and collide with other gas atoms, producing more ions. These new ions produce further ions in the same way, so within a very short time, many ions are created and discharged at the electrodes. This causes a pulse of charge to pass around the circuit, causing a voltage pulse across a resistor, which is then recorded as a single count by the pulse counter.\n\nIn an absorbtion test, the number of counts in a given time is measured and used to work out the count rate, which is the number of counts per unit time. Before the radioactive source is tested, the count rate due to background activity must be measured. By using absorbers of the same material but of differing thickness, the effect of the absorber thickness can be investigated.",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/40/Geiger_counter.jpg",
+        "imageBackground": false
+    },
+    {
+        "id": 4,
+        "title": "Types of Radiation",
+        "description": "It's as simple as αβγ! 🔤",
+        "content": "Rutherford discovered three types of radiation: alpha (α), beta (β) and gamma (γ).\n\nα radiation consists of positively charged particles. Each α particle is composed of two protons and two neutrons, giving an atomic number of 2 and an atomic mass of 4. This is identical to the nucleus of a helium atom. This was proved when Rutherford collected α as a gas and saw that the spectrum of light produced when applying a voltage across it was identical to that of helium gas. α radiation is the most ionising, but least penetrative form of ionising radiation.\n\nβ radiation from naturally-occurring radioactive substances consists of fast-moving electrons. They have an atomic number of 1, but an atomic mass of 0.  This was proved by measuring the deflection of a beam of β particles using electric and magnetic fields. The measurements were used to work out the specific charge (charge/mass) of the particles. This was shown to be the same as the specific charge of the electron. Although β- decay has a positive antimatter counterpart, β+, it was not theorised until Paul Dirac put his theory forward in 1928. β radiation is between the ionising and penetrative strengths of α and γ radiation.\n\nγ radiation consists of high-energy photons with a wavelength of the order of 10^-11 metres or less. This discovery was made by using a crystal to diffract a beam of γ radiation in a similar way to the diffraction of light by a diffraction grating. γ radiation is the least ionising, but most penetrative form of ionising radiation.",
+        "imageURL": "https://i1.wp.com/www.compoundchem.com/wp-content/uploads/2015/09/A-Guide-to-Different-Common-Types-of-Radiation.png",
+        "imageBackground": true
+    },
+    {
+        "id": 5,
+        "title": "Inverse Square Law",
+        "description": "Is that like... a circle? 🔳",
+        "content": "The intensity I of the radiation is the radiation energy per second passing normally through unit area.\n\n• For a point source that emits n γ photons per second, each of energy hf, the radiation energy per second from the source = nhf.\n• At distance r from the source, all the photon emitted from the source pass through a total area of 4πr^2 (the surface area of a sphere of radius r).\n\nSo the intensity I of the radiation at this distance = (radiation energy per second) / (total area) = n/f / 4πr^2. Therefore I = k / r^2, where the constant k = nhf / 4π. Thus I varies with the inverse square of distance r.",
+        "imageURL": "https://i.ibb.co/PDNy6Rr/inversesquare.jpg",
+        "imageBackground": false
+    }
+]
